@@ -7,6 +7,8 @@ Fetches refresh token for office365 email. no additional hassle.
 
 Just run the script, and input your password. In the end, it will spit out a refresh token, which you can save in a file.
 
+Basically this just uses the thunderbird.com app registration to avoid all the hassle of `mutt_xoauth2.py`.
+
 ## Aerc
 
 As mentioned before, get your refresh token, and save it in a file. Adapt your configuration like so (only change the `change these`):
